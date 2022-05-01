@@ -1,0 +1,22 @@
+{
+    "name": "magenfa/php-mvc",
+    "description": "Magenfa Framework",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "vahid aghazade",
+            "email": "v.opsource@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 8.0",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev"
+}
